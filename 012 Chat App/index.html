@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/34617d7f01.js" crossorigin="anonymous"></script>
+    <title>Ninja Chat App</title>
+</head>
+
+<body>
+    <nav>
+        <img src="./chat.png" alt="" class="logo">
+    </nav>
+    <div class="container">
+        <div class="message left">User 1: hey How Are You?</div>
+        <div class="message right">User 2: I am Good 👌</div>
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="msg-input" id="msg-input">
+            <button class="btn" id ="send-btn" type="submit"><i class="fa-regular fa-paper-plane" style="color: #5CF8B8;"></i></button>
+        </form>
+    </div>
+
+    <script src="http://localhost:3400/socket.io/socket.io.js"></script>
+    <script src="js/client.js"></script>
+
+</body>
+
+</html>
